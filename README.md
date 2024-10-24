@@ -1,12 +1,13 @@
 # Satellite-to-Map-Generation-using-Pix2PixGAN 🛰️🗺️
 This project implements a Pix2PixGAN to generate maps from satellite images using Keras/TensorFlow. The model is trained on satellite images paired with their corresponding maps, learning to perform image-to-image translation.
 
-![image](https://github.com/user-attachments/assets/bd3026d5-59ca-4752-8fcb-ecfd7eab47e3)
-
+![image](https://github.com/user-attachments/assets/bd3026d5-59ca-4752-8fcb-ecfd7eab47e3)  
 
 Pix2PixGAN is a conditional Generative adversarial network that learns to map input images to output images. In this project, we use it to convert satellite imagery into map-style representations. The implementation is based on the original Pix2Pix paper and adapted for the satellite-to-map use case.
 
 # 🏗️ Pix2Pix GAN Architecture
+
+![image](https://github.com/user-attachments/assets/9006f37e-d009-4bdf-9991-b65d7cc8737f)  
 The Generator tries to minimize the L1 loss to produce output images close to the ground truth,  
 while the Discriminator enhances the realism of the generated maps using adversarial loss.   
 
