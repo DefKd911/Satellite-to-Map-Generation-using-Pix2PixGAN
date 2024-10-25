@@ -56,6 +56,8 @@ The project includes a Streamlit web interface for easy model inference:
 -> Generate corresponding map   
 -> Download or display results  
 
+![image](https://github.com/user-attachments/assets/52d27030-7267-49d7-9f5b-50ed7f4cedcd)
+
 # Applications
 This project can be used for several practical applications, including:  
 
